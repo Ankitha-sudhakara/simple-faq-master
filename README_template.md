@@ -8,11 +8,12 @@
 
 <div align="center">
   <h3>
-    <a href="{https://your-demo-link.your-domain}">
+    <a href="https://ankitha-sudhakara.github.io/simple-faq-master/">
       Demo
     </a>
     <span> | </span>
-    <a href="{https://your-url-to-the-solution}">
+    <a href="https://github.com/Ankitha-sudhakara/simple-faq-master
+    ">
       Solution
     </a>
     <span> | </span>
