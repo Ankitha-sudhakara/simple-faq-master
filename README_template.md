@@ -69,4 +69,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Author
 
-- GitHub [@Ankitha s](https://{github.com/})
+- GitHub [@Ankitha S](https://github.com/Ankitha-sudhakara
+)
