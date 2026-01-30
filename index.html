@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Simple FAQ | devChallenges.io</title>
+
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+      .maindiv
+      {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:2rem;
+      }
+      .head
+      {
+        margin-bottom: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: large;
+        gap:1rem;
+      }
+      
+      .subhead
+      {
+        display: flex;
+        flex-direction: column;
+        gap:1.5rem;
+      }
+
+      ol{
+        margin-left:20px;
+        display: flex;
+        flex-direction: column;
+        gap:0.4rem;
+      }
+      .blue
+      {
+        color: rgb(10, 127, 211);
+      }
+
+      .sec_subhead
+      {
+
+        display: flex;
+        flex-direction: column;
+        gap:1.5rem;
+      }
+      ul{
+        display:flex;
+        flex-direction: column;
+        gap:0.4rem;
+      }
+      .mainquesdiv
+      {
+  
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+        margin-top:0;
+      }
+      .bold
+      {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="maindiv">
+      <div class="head">
+        <h1> Frequently Asked Questions</h1>
+        <p>Browse through the most frequently asked questions</p>
+      </div>
+     <div class="mainquesdiv">
+      <div class="subhead">
+        <h2>How can I track my order?</h2>
+        <p>You can track your order using the following steps</p>
+        <ol start="1">
+           <li>Go to the Order<span class="blue"> Tracking page.</span></li>
+           <li>Enter your order number and email address.</li>
+           <li>Click on the Track Order button to view the current status of your shipment.</li>
+        </ol>
+        <p> If you encounter any issues, please visit our<span class="blue"> Help Center </span></p>
+      </div>
+        
+    <hr style="height: 1px; background-color: rgb(199, 193, 193); border: none;">
+
+
+      <div class="sec_subhead">
+        <h2>What is your return policy?</h2>
+        <p> We offer a 30-day return policy on most items. Here are some key points</p>
+        <ul>
+          <li><span class="bold">Items must be in original condition:</span>Unworn, unused, and unwashed.</li>
+          <li><span class="bold">original packaging and tags:</span>All items should be returned with their original packaging and tags.</li>
+          <li><span class="bold">proof purchase:</span>A receipt or proof of purchase is required.</li>
+        </ul>
+        <p> For more detailed information, read our full <span class="blue">Return Policy</span>.</p>
+      </div>
+    </div>
+   </div>
+    <div class="author-info">
+      Coded by <a href="#">Ankitha s</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+  </body>
+</html>
